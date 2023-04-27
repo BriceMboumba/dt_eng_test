@@ -1,0 +1,25 @@
+ commandes systèmes 
+
+1) installation de mysqlclient
+sudo apt-get install mysql-server
+
+sudo apt-get install libmysqlclient-dev
+
+to stop listening port with mysql
+sudo netstat -nlpt |grep 3306
+
+sudo service mysql stop
+
+
+
+
+
+
+
+commandes python avec pip (dépendances)
+
+pip install -r requirements.txt
+
+mysqlclient==2.1.1
+SQLAlchemy==2.0.10
+
